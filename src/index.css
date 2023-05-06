@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ocultar las barras de desplazamiento */
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* cambiar el ancho de las barras de desplazamiento */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* cambiar el color de fondo de las barras de desplazamiento */
+  .scrollbar-bg-gray::-webkit-scrollbar {
+    background-color: #f1f1f1;
+  }
+  
+  /* cambiar el color de la barra de desplazamiento */
+  .scrollbar-thumb-gray::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
