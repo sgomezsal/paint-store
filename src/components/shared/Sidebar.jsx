@@ -1,5 +1,5 @@
 import React from 'react'
-import { RiHome6Line, RiTShirtFill, RiHandHeartFill, RiWhatsappFill, RiLogoutCircleRLine } from "react-icons/ri";
+import { RiHome6Line, RiPaletteFill, RiHandHeartFill, RiWhatsappFill, RiLogoutCircleRLine, RiPaintFill } from "react-icons/ri";
 
 
 const Sidebar = (props) => {
@@ -11,7 +11,9 @@ const Sidebar = (props) => {
         <div>
             <ul className="pl-4">
                 <li>
-                    <h1 className="text-xl text-gray-300 uppercase font-bold text-center my-5">Logo</h1>
+                    <a href="#" className="group-hover:bg-[#ec7c6a] p-4 flex justify-center rounded-xl text-[#ec7c6a] group-hover:text-white transition-colors">
+                        <RiPaintFill className="text-xl" />
+                    </a>
                 </li>
                 <li className="bg-[#262837] p-4 rounded-tl-xl rounded-bl-xl">
                     <a href="#" className="bg-[#ec7c6a] p-4 flex justify-center rounded-xl text-white">
@@ -20,7 +22,7 @@ const Sidebar = (props) => {
                 </li>
                 <li className="hover:bg-[#262837] p-4 rounded-tl-xl rounded-bl-xl group transition-colors">
                     <a href="#" className="group-hover:bg-[#ec7c6a] p-4 flex justify-center rounded-xl text-[#ec7c6a] group-hover:text-white transition-colors">
-                        <RiTShirtFill className="text-xl" />
+                        <RiPaletteFill className="text-xl" />
                     </a>
                 </li>
                 <li className="hover:bg-[#262837] p-4 rounded-tl-xl rounded-bl-xl group transition-colors">
@@ -29,7 +31,7 @@ const Sidebar = (props) => {
                     </a>
                 </li>
                 <li className="hover:bg-[#262837] p-4 rounded-tl-xl rounded-bl-xl group transition-colors">
-                    <a href="#" className="group-hover:bg-[#ec7c6a] p-4 flex justify-center rounded-xl text-[#ec7c6a] group-hover:text-white transition-colors">
+                    <a href="https://wa.link/s6jp29" target="_blank" className="group-hover:bg-[#ec7c6a] p-4 flex justify-center rounded-xl text-[#ec7c6a] group-hover:text-white transition-colors">
                         <RiWhatsappFill className="text-xl" />
                     </a>
                 </li>
